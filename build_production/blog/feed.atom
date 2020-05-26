@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Diary Programming</title>
+    <link href="https://rizkhal.github.io" />
+    <link type="application/atom+xml" rel="self" href="https://rizkhal.github.io/blog/feed.atom" />
+    <updated>2020-05-27T02:17:09+08:00</updated>
+    <id>https://rizkhal.github.io/blog/feed.atom</id>
+    <author>
+        <name>Rizkhal</name>
+    </author>
+                <entry>
+    <id>https://rizkhal.github.io/blog/menampilkan-code-block-dihalaman-web-menggunakan-markedjs-dan-highlightjs</id>
+    <link type="text/html" rel="alternate" href="https://rizkhal.github.io/blog/menampilkan-code-block-dihalaman-web-menggunakan-markedjs-dan-highlightjs" />
+    <title>Cara menggunakan markedjs dan highlightjs</title>
+    <published>2020-05-26T08:00:00+08:00</published>
+    <updated>2020-05-26T08:00:00+08:00</updated>
+    <author>
+        <name>Rizkhal</name>
+    </author>
+    <summary type="html">Untuk menggunakan highlightjs dan markedjs silahkan download terlebih dahulu disini highlightjs dan markedjs 
+atau menggunakan cdn highlightjs dan markedjs.
+
+
+
+
+
+Menggunakan highlightjs dan markedjs untuk menampilkan kode akan sangat membantu pengunjung......</summary>
+    <content type="html"><![CDATA[
+        <p>Untuk menggunakan <strong>highlightjs</strong> dan <strong>markedjs</strong> silahkan download terlebih dahulu disini <a href="https://highlightjs.org/">highlightjs</a> dan <a href="https://marked.js.org/#/README.md#README.md">markedjs</a> 
+atau menggunakan cdn <a href="https://cdnjs.com/libraries/highlight.js/">highlightjs</a> dan <a href="https://cdnjs.com/libraries/marked">markedjs</a>.</p>
+
+<pre><code class="language-javascript">// &lt;div markdown&gt;&lt;/div&gt;
+
+// mengambil div dengan attribute markdown sebagai container
+const element = document.querySelectorAll('[markdown]')[0];
+
+// method untuk merender code
+// parameter file berisi code yang akan dirender
+const ayu = (file) =&gt; {
+    marked.setOptions({
+        renderer: new marked.Renderer(),
+        highlight: function(code, language) {
+            // mengambil indentifier bahasa apa yang akan dirender
+            // jika tidak ditemukan, maka identifier akan diset sebagai plaintext
+            const validLanguage = hljs.getLanguage(language) ? language : 'plaintext';
+
+            // mengembalikan code yang valid sesuai indentifier
+            return hljs.highlight(validLanguage, code).value;
+        },
+        // settingan highlightjs
+        gfm: true,
+        xhtml: false,
+        tables: true,
+        breaks: false,
+        pedantic: false,
+        sanitize: false,
+        smartLists: true,
+        smartypants: false,
+     });
+
+    // code sudah siap dirender
+    // sesuai dengan settingan diatas
+    return marked(file);
+};
+
+// coba dengan bahasa javascript
+const cantik = "```javascript\nconsole.log('i love cantik 💕')\n```";
+
+// merender ke dalam div yang sudah kita ambil diatas
+element.innerHTML = ayu(cantik);
+</code></pre>
+
+<h3>Kesimpulan</h3>
+
+<p>Menggunakan <strong>highlightjs</strong> dan <strong>markedjs</strong> untuk menampilkan kode akan sangat membantu pengunjung website untuk membaca kode yang kita tulis dan dapat memepercantik website kita sendiri.</p>
+
+<p>Happy Coding ❤️</p>
+    ]]></content>
+</entry>
+    </feed>
