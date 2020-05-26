@@ -3,12 +3,26 @@
     <title>Diary Programming</title>
     <link href="https://rizkhal.github.io" />
     <link type="application/atom+xml" rel="self" href="https://rizkhal.github.io/blog/feed.atom" />
-    <updated>2020-05-27T02:17:09+08:00</updated>
+    <updated>2020-05-27T03:24:39+08:00</updated>
     <id>https://rizkhal.github.io/blog/feed.atom</id>
     <author>
         <name>Rizkhal</name>
     </author>
                 <entry>
+    <id>https://rizkhal.github.io/blog/test-second-post</id>
+    <link type="text/html" rel="alternate" href="https://rizkhal.github.io/blog/test-second-post" />
+    <title>Test second posts</title>
+    <published>2020-05-26T08:00:00+08:00</published>
+    <updated>2020-05-26T08:00:00+08:00</updated>
+    <author>
+        <name>Rizkhal</name>
+    </author>
+    <summary type="html">Bismillah working!...</summary>
+    <content type="html"><![CDATA[
+        <p>Bismillah working!</p>
+    ]]></content>
+</entry>
+            <entry>
     <id>https://rizkhal.github.io/blog/menampilkan-code-block-dihalaman-web-menggunakan-markedjs-dan-highlightjs</id>
     <link type="text/html" rel="alternate" href="https://rizkhal.github.io/blog/menampilkan-code-block-dihalaman-web-menggunakan-markedjs-dan-highlightjs" />
     <title>Cara menggunakan markedjs dan highlightjs</title>
