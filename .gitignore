@@ -1,0 +1,5 @@
+/.phpintel
+/build_local/
+/node_modules/
+/vendor/
+.DS_Store
