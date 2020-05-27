@@ -3,12 +3,31 @@
     <title>Rizkhal Lamaau</title>
     <link href="https://rizkhal.github.io" />
     <link type="application/atom+xml" rel="self" href="https://rizkhal.github.io/blog/feed.atom" />
-    <updated>2020-05-27T06:55:02+08:00</updated>
+    <updated>2020-05-27T19:39:54+08:00</updated>
     <id>https://rizkhal.github.io/blog/feed.atom</id>
     <author>
         <name>Rizkhal</name>
     </author>
                 <entry>
+    <id>https://rizkhal.github.io/blog/spread-operator-to-rid-of-duplicate-value</id>
+    <link type="text/html" rel="alternate" href="https://rizkhal.github.io/blog/spread-operator-to-rid-of-duplicate-value" />
+    <title>Spread operator to get rid of duplicate value</title>
+    <published>2020-05-27T08:00:00+08:00</published>
+    <updated>2020-05-27T08:00:00+08:00</updated>
+    <author>
+        <name>Rizkhal</name>
+    </author>
+    <summary type="html">Distribute the operator to eliminate duplicate values, with javascript we only need to write one line of code like this:...</summary>
+    <content type="html"><![CDATA[
+        <p>Distribute the operator to eliminate duplicate values, with javascript we only need to write one line of code like this:</p>
+
+<pre><code class="language-javascript">const array = [1, 2, 3, 2, 3, 1];
+[...new Set(array)]; // spread operator to get rid of duplicate value
+// result = [1, 2, 3];
+</code></pre>
+    ]]></content>
+</entry>
+            <entry>
     <id>https://rizkhal.github.io/blog/useful-git-commands</id>
     <link type="text/html" rel="alternate" href="https://rizkhal.github.io/blog/useful-git-commands" />
     <title>Useful git commands</title>
