@@ -263,6 +263,8 @@ class RepositoryCommand extends Command
         $name = $this-&gt;getArgument('name');
 
         $this-&gt;putContents(app_path($name), $this-&gt;buildClass($name));
+
+        $this-&gt;info("Repository created successfully.");
     }
 
     /**
@@ -273,11 +275,9 @@ class RepositoryCommand extends Command
      */
     protected function buildClass(string $name): string
     {
-        $name = $this-&gt;getArgument('name');
+        $stub = $this-&gt;getStub();
 
-        $this-&gt;putContents(app_path($name), $this-&gt;buildClass($name));
-
-        $this-&gt;info("Repository created successfully.");
+        return $this-&gt;replaceNamespace($stub)-&gt;replaceClass($stub, $name);
     }
 
     /**

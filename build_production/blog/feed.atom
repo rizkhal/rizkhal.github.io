@@ -3,7 +3,7 @@
     <title>Rizkhal Lamaau</title>
     <link href="https://rizkhal.github.io" />
     <link type="application/atom+xml" rel="self" href="https://rizkhal.github.io/blog/feed.atom" />
-    <updated>2020-06-05T07:45:05+08:00</updated>
+    <updated>2020-06-05T07:51:23+08:00</updated>
     <id>https://rizkhal.github.io/blog/feed.atom</id>
     <author>
         <name>Rizkhal</name>
@@ -109,6 +109,8 @@ class RepositoryCommand extends Command
         $name = $this-&gt;getArgument('name');
 
         $this-&gt;putContents(app_path($name), $this-&gt;buildClass($name));
+
+        $this-&gt;info("Repository created successfully.");
     }
 
     /**
@@ -119,11 +121,9 @@ class RepositoryCommand extends Command
      */
     protected function buildClass(string $name): string
     {
-        $name = $this-&gt;getArgument('name');
+        $stub = $this-&gt;getStub();
 
-        $this-&gt;putContents(app_path($name), $this-&gt;buildClass($name));
-
-        $this-&gt;info("Repository created successfully.");
+        return $this-&gt;replaceNamespace($stub)-&gt;replaceClass($stub, $name);
     }
 
     /**
