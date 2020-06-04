@@ -1,123 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
  <url>
+  <loc>https://rizkhal.github.io/favicon.ico</loc>
+  <lastmod>2020-06-05T07:45:05+08:00</lastmod>
+  <changefreq>daily</changefreq>
+ </url>
+ <url>
   <loc>https://rizkhal.github.io/blog/make-custom-class-using-laravel-command</loc>
-  <lastmod>2020-06-05T03:43:47+08:00</lastmod>
+  <lastmod>2020-06-05T07:45:05+08:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://rizkhal.github.io/blog/useful-git-commands</loc>
-  <lastmod>2020-06-05T03:43:47+08:00</lastmod>
+  <lastmod>2020-06-05T07:45:05+08:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://rizkhal.github.io/blog/spread-operator-to-rid-of-duplicate-value</loc>
-  <lastmod>2020-06-05T03:43:47+08:00</lastmod>
+  <lastmod>2020-06-05T07:45:05+08:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://rizkhal.github.io/blog/regular-expression-filter-certain-character</loc>
-  <lastmod>2020-06-05T03:43:47+08:00</lastmod>
+  <lastmod>2020-06-05T07:45:05+08:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://rizkhal.github.io/blog/javascript-nested-function</loc>
-  <lastmod>2020-06-05T03:43:47+08:00</lastmod>
+  <lastmod>2020-06-05T07:45:05+08:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://rizkhal.github.io/about</loc>
-  <lastmod>2020-06-05T03:43:47+08:00</lastmod>
+  <lastmod>2020-06-05T07:45:05+08:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://rizkhal.github.io/blog/feed.atom</loc>
-  <lastmod>2020-06-05T03:43:47+08:00</lastmod>
+  <lastmod>2020-06-05T07:45:05+08:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://rizkhal.github.io/blog/categories/git</loc>
-  <lastmod>2020-06-05T03:43:47+08:00</lastmod>
+  <lastmod>2020-06-05T07:45:05+08:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://rizkhal.github.io/blog/categories/javascript</loc>
-  <lastmod>2020-06-05T03:43:47+08:00</lastmod>
+  <lastmod>2020-06-05T07:45:05+08:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://rizkhal.github.io/blog/categories/configuration</loc>
-  <lastmod>2020-06-05T03:43:47+08:00</lastmod>
+  <lastmod>2020-06-05T07:45:05+08:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://rizkhal.github.io/blog/categories/css</loc>
-  <lastmod>2020-06-05T03:43:47+08:00</lastmod>
+  <lastmod>2020-06-05T07:45:05+08:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://rizkhal.github.io/blog/categories/html</loc>
-  <lastmod>2020-06-05T03:43:47+08:00</lastmod>
+  <lastmod>2020-06-05T07:45:05+08:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://rizkhal.github.io/blog/categories/alpine</loc>
-  <lastmod>2020-06-05T03:43:47+08:00</lastmod>
+  <lastmod>2020-06-05T07:45:05+08:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://rizkhal.github.io/blog/categories/ajax</loc>
-  <lastmod>2020-06-05T03:43:47+08:00</lastmod>
+  <lastmod>2020-06-05T07:45:05+08:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://rizkhal.github.io/blog/categories/livewire</loc>
-  <lastmod>2020-06-05T03:43:47+08:00</lastmod>
+  <lastmod>2020-06-05T07:45:05+08:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://rizkhal.github.io/blog/categories/linux</loc>
-  <lastmod>2020-06-05T03:43:47+08:00</lastmod>
+  <lastmod>2020-06-05T07:45:05+08:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://rizkhal.github.io/blog/categories/feature</loc>
-  <lastmod>2020-06-05T03:43:47+08:00</lastmod>
+  <lastmod>2020-06-05T07:45:05+08:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://rizkhal.github.io/blog/categories/laravel</loc>
-  <lastmod>2020-06-05T03:43:47+08:00</lastmod>
+  <lastmod>2020-06-05T07:45:05+08:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://rizkhal.github.io/blog/categories/php</loc>
-  <lastmod>2020-06-05T03:43:47+08:00</lastmod>
+  <lastmod>2020-06-05T07:45:05+08:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://rizkhal.github.io/blog/categories/tailwind</loc>
-  <lastmod>2020-06-05T03:43:47+08:00</lastmod>
+  <lastmod>2020-06-05T07:45:05+08:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://rizkhal.github.io/blog</loc>
-  <lastmod>2020-06-05T03:43:47+08:00</lastmod>
+  <lastmod>2020-06-05T07:45:05+08:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://rizkhal.github.io/contact</loc>
-  <lastmod>2020-06-05T03:43:47+08:00</lastmod>
+  <lastmod>2020-06-05T07:45:05+08:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://rizkhal.github.io</loc>
-  <lastmod>2020-06-05T03:43:47+08:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
- <url>
-  <loc>https://rizkhal.github.io/icon.svg</loc>
-  <lastmod>2020-06-05T03:43:47+08:00</lastmod>
+  <lastmod>2020-06-05T07:45:05+08:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
 </urlset>

@@ -3,7 +3,7 @@
     <title>Rizkhal Lamaau</title>
     <link href="https://rizkhal.github.io" />
     <link type="application/atom+xml" rel="self" href="https://rizkhal.github.io/blog/feed.atom" />
-    <updated>2020-06-05T03:43:47+08:00</updated>
+    <updated>2020-06-05T07:45:05+08:00</updated>
     <id>https://rizkhal.github.io/blog/feed.atom</id>
     <author>
         <name>Rizkhal</name>
@@ -171,9 +171,9 @@ class RepositoryCommand extends Command
      * 
      * @return string
      */
-    protected function getArgument(): string
+    protected function getArgument($name): string
     {
-        return trim($this-&gt;argument('name'));
+        return trim($this-&gt;argument($name));
     }
 
     /**
