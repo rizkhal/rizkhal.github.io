@@ -3,7 +3,7 @@
     <title>Rizkhal Lamaau</title>
     <link href="https://rizkhal.github.io" />
     <link type="application/atom+xml" rel="self" href="https://rizkhal.github.io/blog/feed.atom" />
-    <updated>2020-06-05T02:36:29+08:00</updated>
+    <updated>2020-06-05T03:43:47+08:00</updated>
     <id>https://rizkhal.github.io/blog/feed.atom</id>
     <author>
         <name>Rizkhal</name>
@@ -29,7 +29,7 @@ Therefore, let's make a simple command to create a class interface quickly.</p>
 <pre><code class="language-bash">php artisan make:command RepositoryCommand
 </code></pre>
 
-<p>Then create a stubs file in <strong>app/Console/repository.stub</strong> and make like this</p>
+<p>Then create a stubs file in <code>app/Console/repository.stub</code> and make like this</p>
 
 <pre><code class="language-php">&lt;?php
 
@@ -73,7 +73,7 @@ interface {{ class }}
 
 <p>After that, let's start by creating a command to create this file with dynamic classes and namespaces</p>
 
-<p>Open your RepositoryCommand and make like this</p>
+<p>Open your <code>RepositoryCommand.php</code> and make like this</p>
 
 <pre><code class="language-php">&lt;?php
 
@@ -108,11 +108,11 @@ class RepositoryCommand extends Command
     {
         $name = $this-&gt;getArgument('name');
 
-        $this-&gt;putContents($this-&gt;controllerPath($name), $this-&gt;buildClass($name));
+        $this-&gt;putContents(app_path($name), $this-&gt;buildClass($name));
     }
 
     /**
-     * Make controller
+     * Build class
      * 
      * @param  string $name
      * @return string

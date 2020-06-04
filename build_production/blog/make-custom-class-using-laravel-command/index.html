@@ -67,7 +67,7 @@
 </script>
         
         <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
-        <link rel="stylesheet" href="/assets/build/css/main.css?id=327ef3b4f44532feef0e">
+        <link rel="stylesheet" href="/assets/build/css/main.css?id=e3f66bbc6ddd26f784bf">
     </head>
 
     <body class="flex flex-col justify-between min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans">
@@ -152,11 +152,14 @@
 </nav>
 
         <main role="main" class="flex-auto w-full container max-w-4xl mx-auto py-16 px-6">
-                <img src="/assets/posts/javascript-nested-function.jpg" alt="Make custom class using laravel command cover image" class="mb-2">
+                <img src="/assets/posts/make-custom-class-using-laravel-command.jpg" alt="Make custom class using laravel command cover image" class="mb-2">
 
     <h1 class="leading-none mb-2">Make custom class using laravel command</h1>
 
-    <p class="text-gray-700 text-xl md:mt-0">Rizkhal  •  June 4, 2020 • ☕</p>
+    <p class="text-gray-700 text-md font-semibold md:mt-0">
+        <span class="inline-block bg-gray-300 hover:bg-blue-200 leading-loose tracking-wide text-gray-800 uppercase text-xs font-semibold rounded mr-2 px-3 pt-px">2 min read</span> 
+        Rizkhal  •  June 4, 2020  •  ☕ 
+    </p>
 
                         <a
                 href="/blog/categories/laravel"
@@ -174,7 +177,7 @@ Therefore, let's make a simple command to create a class interface quickly.</p>
 <pre><code class="language-bash">php artisan make:command RepositoryCommand
 </code></pre>
 
-<p>Then create a stubs file in <strong>app/Console/repository.stub</strong> and make like this</p>
+<p>Then create a stubs file in <code>app/Console/repository.stub</code> and make like this</p>
 
 <pre><code class="language-php">&lt;?php
 
@@ -218,7 +221,7 @@ interface {{ class }}
 
 <p>After that, let's start by creating a command to create this file with dynamic classes and namespaces</p>
 
-<p>Open your RepositoryCommand and make like this</p>
+<p>Open your <code>RepositoryCommand.php</code> and make like this</p>
 
 <pre><code class="language-php">&lt;?php
 
@@ -253,11 +256,11 @@ class RepositoryCommand extends Command
     {
         $name = $this-&gt;getArgument('name');
 
-        $this-&gt;putContents($this-&gt;controllerPath($name), $this-&gt;buildClass($name));
+        $this-&gt;putContents(app_path($name), $this-&gt;buildClass($name));
     }
 
     /**
-     * Make controller
+     * Build class
      * 
      * @param  string $name
      * @return string
