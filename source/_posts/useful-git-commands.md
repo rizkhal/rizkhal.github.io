@@ -33,4 +33,8 @@ $ git clean -n
 * reset to spesific head
 * option: --hard, --mixed or only reset
 $ git reset --soft HEAD~number_of_commits
+
+* show pretty graph on terminal
+* make your alias for simple command
+$ git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 ```
