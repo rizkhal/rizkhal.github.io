@@ -3,26 +3,12 @@
     <title>Rizkhal Lamaau</title>
     <link href="https://rizkhal.github.io" />
     <link type="application/atom+xml" rel="self" href="https://rizkhal.github.io/blog/feed.atom" />
-    <updated>2020-06-05T11:24:10+08:00</updated>
+    <updated>2020-06-05T11:31:04+08:00</updated>
     <id>https://rizkhal.github.io/blog/feed.atom</id>
     <author>
         <name>Rizkhal</name>
     </author>
                 <entry>
-    <id>https://rizkhal.github.io/blog/this-is-for-testing</id>
-    <link type="text/html" rel="alternate" href="https://rizkhal.github.io/blog/this-is-for-testing" />
-    <title>This is for testing my shell script</title>
-    <published>2020-06-05T08:00:00+08:00</published>
-    <updated>2020-06-05T08:00:00+08:00</updated>
-    <author>
-        <name>Rizkhal</name>
-    </author>
-    <summary type="html">...</summary>
-    <content type="html"><![CDATA[
-        <h3>hy, this is for testing</h3>
-    ]]></content>
-</entry>
-            <entry>
     <id>https://rizkhal.github.io/blog/make-custom-class-using-laravel-command</id>
     <link type="text/html" rel="alternate" href="https://rizkhal.github.io/blog/make-custom-class-using-laravel-command" />
     <title>Make custom class using laravel command</title>
