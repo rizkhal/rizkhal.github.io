@@ -1,0 +1,11 @@
+---
+extends: _layouts.post
+section: content
+title: {{ title }}
+date: {{ date }}
+cover_image: /assets/posts/{{ filename }}.jpg
+description: {{ description }}
+categories: [{{ tags }}]
+---
+
+### Start write your amazing posts...
