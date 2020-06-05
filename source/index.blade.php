@@ -7,7 +7,7 @@
             <img src="{{ $featuredPost->cover_image ?? '/assets/img/post-cover-image-3.svg' }}" alt="{{ $page->title }} cover image" class="mb-2">
             
             <p class="text-gray-700 font-medium my-2">
-                {{ $featuredPost->getDate()->format('F j, Y') }} • ☕ 
+                <span class="inline-block bg-gray-300 hover:bg-blue-200 leading-loose tracking-wide text-gray-800 uppercase text-xs font-semibold rounded mr-2 px-3 pt-px">{{ $featuredPost->estimate_reading_time }}</span>{{ $featuredPost->getDate()->format('F j, Y') }} • ☕ 
             </p>
 
             <h2 class="text-3xl mt-0">
@@ -23,12 +23,8 @@
             </a>
         </div>
 
-        @if (! $loop->last)
-            <hr class="border-b my-6">
-        @endif
+        <hr class="border-b my-6">
     @endforeach
-
-    @include('_components.newsletter-signup')
 
     @foreach ($posts->where('featured', false)->take(4)->chunk(2) as $row)
         <div class="flex flex-col md:flex-row md:-mx-6">

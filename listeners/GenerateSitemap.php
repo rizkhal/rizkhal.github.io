@@ -10,7 +10,7 @@ class GenerateSitemap
 {
     protected $exclude = [
         '/assets/*',
-        '*/favicon.ico',
+        '*/icon.svg',
         '*/404*'
     ];
 

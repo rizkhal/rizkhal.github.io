@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-N6TTVWT');</script>
+        <!-- End Google Tag Manager -->
+
         <!-- meta -->
         <meta charset="utf-8">
         <meta name="author" content="Rizkhal">
@@ -12,6 +20,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="keywords" content="HTML, CSS, JavaScript, Php, Laravel, Rizkhal, Programming, Web Programming">
         <meta name="description" content="{{ $page->meta_description ?? $page->siteDescription }}">
+        <meta name="google-site-verification" content="lOoXlUB7Hl1L4JT2OW4Q1O52aKP1wfO8HytQar-bWUc" />
 
         @include('_components.seo')
 
@@ -32,6 +41,12 @@
     </head>
 
     <body class="flex flex-col justify-between min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans">
+
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N6TTVWT"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
         <header class="flex items-center shadow bg-white border-b h-24 py-4" role="banner">
             <div class="container flex items-center max-w-6xl mx-auto px-4 lg:px-8">
                 <div class="flex items-center">

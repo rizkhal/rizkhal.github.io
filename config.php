@@ -23,11 +23,7 @@ return [
                     return $post->categories ? in_array($page->getFilename(), $post->categories, true) : false;
                 });
             },
-        ],
-        'notes' => [
-            'sort' => '-rating',
-            'path' => '/notes/{filename}',
-        ],
+        ]
     ],
 
     // helpers

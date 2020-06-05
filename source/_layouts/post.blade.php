@@ -26,7 +26,10 @@
 
     <h1 class="leading-none mb-2">{{ $page->title }}</h1>
 
-    <p class="text-gray-700 text-xl md:mt-0">{{ $page->author }}  •  {{ date('F j, Y', $page->date) }} • ☕</p>
+    <p class="text-gray-700 text-md font-semibold md:mt-0">
+        <span class="inline-block bg-gray-300 hover:bg-blue-200 leading-loose tracking-wide text-gray-800 uppercase text-xs font-semibold rounded mr-2 px-3 pt-px">{{ $page->estimate_reading_time }}</span> 
+        {{ $page->author }}  •  {{ date('F j, Y', $page->date) }}  •  ☕ 
+    </p>
 
     @if ($page->categories)
         @foreach ($page->categories as $i => $category)

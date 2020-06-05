@@ -21,5 +21,13 @@
                 class="nav-menu__item hover:text-blue-500 {{ $page->isActive('/contact') ? 'active text-blue' : '' }}"
             >Contact</a>
         </li>
+        <li class="pl-4">
+            <a
+                target="_blank"
+                title="{{ $page->siteName }} Rss"
+                href="https://rizkhal.github.io/sitemap.xml"
+                class="nav-menu__item hover:text-blue-500"
+            >Rss</a>
+        </li>
     </ul>
 </nav>

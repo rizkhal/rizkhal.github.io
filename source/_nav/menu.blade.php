@@ -13,4 +13,9 @@
         class="ml-6 text-gray-700 hover:text-blue-600 {{ $page->isActive('/contact') ? 'active text-blue-600' : '' }}">
         Contact
     </a>
+
+    <a title="{{ $page->siteName }} Rss" href="https://rizkhal.github.io/sitemap.xml" target="_blank" 
+        class="ml-6 text-gray-700 hover:text-blue-600">
+        Rss
+    </a>
 </nav>
