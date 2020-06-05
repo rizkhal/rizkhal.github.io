@@ -1,10 +1,11 @@
 <?php
 
 /**
- * This class get file stub
- * and replace title, date, filename, description and tags
+ * ¯/_(ツ)_/¯
+ * 
+ * HOW TO USE IT ?
  * type in console:
- * php Skeleton.php amazing title post --category=php,laravel
+ * php Skeleton.php amazing title post --category=[tag1,tag2] --image=[image-id]
  */
 
 declare(strict_types=1);
@@ -33,7 +34,7 @@ class Skeleton
      */
     public function __construct($argument)
     {
-        preg_match('/([^php\s]+\s.*?).--category.(.*\w).--image.(.*\w)/', implode(' ', $argument), $argument);
+        preg_match('/(^.*).--category.(.*\w).--image.(.*\w)/', implode(' ', $argument), $argument);
 
         $skeleton = $this->getSkeleton();
         $this->buildSkeleton($argument, $skeleton);
@@ -48,12 +49,14 @@ class Skeleton
      */
     protected function buildSkeleton(array $argument, string $skeleton): void
     {
-        $slug = $this->slug($argument[1]);
+        preg_match('/^.+?\.php.(.+)$/', $argument[1], $match);
+
+        $slug = $this->slug($match[1]);
 
         $resource = $this->replaceDatePost($skeleton)
                         ->replaceTags($argument[2], $skeleton)
                         ->replaceThumbnailName($slug, $skeleton, $argument[3])
-                        ->replaceTitleAndDescription($argument[1], $skeleton);
+                        ->replaceTitleAndDescription($match[1], $skeleton);
 
         file_put_contents("source/_posts/{$slug}.md", $resource);
     }
