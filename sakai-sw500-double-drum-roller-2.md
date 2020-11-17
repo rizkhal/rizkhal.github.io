@@ -1,9 +1,9 @@
 ---
 extends: _layouts.post
 section: content
-title: This is for testing
+title: Sakai SW500 Double Drum Roller
 date: 2017-03-23
-categories: [feature]
+categories: [alat berat]
 description: This is your first blog post
 cover_image: https://rizkhal.github.io/sultan/assets/img/1.jpeg
 ---
