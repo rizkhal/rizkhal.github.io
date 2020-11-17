@@ -5,7 +5,7 @@ title: Nigata Nf 220
 date: 2017-03-23
 categories: [alat berat]
 description: Alat Berat Merek Nigata
-cover_image: https://rizkhal.github.io/sultan/assets/img/nigata-nf220.jpg
+cover_image: http://sultanalatberat.com/assets/img/nigata-nf220.jpg
 ---
 
 Nigata NF220

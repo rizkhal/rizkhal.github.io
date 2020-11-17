@@ -5,49 +5,21 @@ title: Nigata Nf 220
 date: 2017-03-23
 categories: [alat berat]
 description: Alat Berat Merek Nigata
-cover_image: https://rizkhal.github.io/sultan/assets/img/nigata-nf220-2.jpg
+cover_image: http://sultanalatberat.com/assets/img/nigata-nf220-2.jpg
 ---
 
 Nigata NF220
 
 Asphalt Finisher
 
-Make: Isuzu
+Merek/Type: NF-220
 
-Model: 4LE1
+Hopper Capacity: 8ton - 10ton
 
-Gross Power: 29KW
+Paving Width: 2.5m - 4.5m
 
-Power Measured: 2100rpm
+Paving Thickness: 10mm - 140mm
 
-Displacement: 2.2L
+Hopper Width / Open: 4.5m
 
-Operational: -
-
-Fuel Capacity: 46L
-
-HYDRAULIC SYSTEM FLUID CAPACITY: 70L
-
-HOPPER/PAVER: -
-
-HOPPER CAPACITY: 10000kg
-
-PAVING WIDTH-STD: 2.5m
-
-PAVING WIDTH-MAX: 4.5m
-
-PAVING THICKNESS-MAX: 140mm
-
-PAVING SPEED-MAX: 12m/min
-
-TRAVEL SPEED-MAX: 2.4km/h
-
-AUGER DIAMETER: 230mm
-
-DIMENSION:
-
-LENGHT W/ SCREED: 5.5m
-
-WIDTH W/ HOPPER OPEN: 4.5m
-
-TRANSPORT WIDTH: 2.5
+Working Hours: 2.417 Hours
