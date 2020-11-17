@@ -5,7 +5,7 @@ title: Mailchimp Newsletters
 date: 2018-11-21
 categories: [feature]
 description: Mailchimp newsletter signups, just add a url.
-cover_image: /assets/img/4.jpeg
+cover_image: https://rizkhal.github.io/sultan/assets/img/4.jpeg
 ---
 
 For Sale

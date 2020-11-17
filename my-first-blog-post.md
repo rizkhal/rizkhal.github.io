@@ -4,7 +4,7 @@ section: content
 title: My First Blog Post
 date: 2017-03-23
 description: This is your first blog post.
-cover_image: /assets/img/5.jpg
+cover_image: https://rizkhal.github.io/sultan/assets/img/5.jpg
 ---
 
 For Sale

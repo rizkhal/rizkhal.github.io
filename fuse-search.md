@@ -4,7 +4,7 @@ section: content
 title: Fuse Search
 date: 2018-12-22
 description: Fast local search powered by FuseJS
-cover_image: /assets/img/2.jpeg
+cover_image: https://rizkhal.github.io/sultan/assets/img/2.jpeg
 categories: [feature]
 ---
 

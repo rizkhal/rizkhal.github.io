@@ -5,7 +5,7 @@ title: This is for testing
 date: 2017-03-23
 categories: [feature]
 description: This is your first blog post
-cover_image: /assets/img/1.jpeg
+cover_image: https://rizkhal.github.io/sultan/assets/img/1.jpeg
 ---
 
 For Sale
