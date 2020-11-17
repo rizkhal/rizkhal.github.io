@@ -6,12 +6,30 @@ date: 2017-03-23
 categories: [feature]
 description: This is your first blog post
 cover_image: /assets/img/1.jpeg
-galery: [/assets/img/1.jpeg, /assets/img/2.jpeg]
 ---
 
-This is the start of your first blog post.
+For Sale
 
-- lorem1    
-- lorem2    
-- lorem3    
-- lorem4    
+Used Sakai SW500 Double Drum Roller
+
+Jenis Alat : Double Drum Roller / Tandem Roller
+
+Merek : Sakai
+
+Tipe : SW500
+
+Serial Number : –
+
+Deskripsi : 4.6ton,
+
+Tahun Impor : –
+
+Hour : 4659,1
+
+kondisi : second, bagus dan siap kerja
+
+Buatan : Jepang
+
+Engine : Isuzu, KW (HP) 29.6 (39.7)
+
+Lokasi : Bandara Mas, Tangerang – Indonesia

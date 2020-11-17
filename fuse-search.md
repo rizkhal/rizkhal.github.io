@@ -8,9 +8,28 @@ cover_image: /assets/img/2.jpeg
 categories: [feature]
 ---
 
-To provide fast, local search of your blog, this starter template comes with a pre-built Vue.js component that uses Fuse.js. [Fuse.js](http://fusejs.io/) is a "lightweight fuzzy-search library with _no_ dependencies." It works by running queries against a JSON index of your content.
+For Sale
 
-During the [build process](http://jigsaw.tighten.co/docs/building-and-previewing/), the contents of your `posts` collection is processed by the `GenerateIndex.php` listener, and an `index.json` file is generated in the build directory. The `Search.vue` component provides a search input that queries this local index.
+Used Sakai SW500 Double Drum Roller
 
-If you'd like to customize the generation of your search index, take a look at the `handle` method of the `GenerateIndex.php` file.
+Jenis Alat : Double Drum Roller / Tandem Roller
 
+Merek : Sakai
+
+Tipe : SW500
+
+Serial Number : –
+
+Deskripsi : 4.6ton,
+
+Tahun Impor : –
+
+Hour : 4659,1
+
+kondisi : second, bagus dan siap kerja
+
+Buatan : Jepang
+
+Engine : Isuzu, KW (HP) 29.6 (39.7)
+
+Lokasi : Bandara Mas, Tangerang – Indonesia
