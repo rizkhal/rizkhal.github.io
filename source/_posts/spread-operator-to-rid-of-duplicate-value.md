@@ -1,4 +1,5 @@
-Yeeay! its working :tada: \\
+Yeeay! its working :tada:
+<br>
 ```javascript
 const array = [1, 2, 3, 2, 3, 1];
 [...new Set(array)]; // spread operator to get rid of duplicate value
